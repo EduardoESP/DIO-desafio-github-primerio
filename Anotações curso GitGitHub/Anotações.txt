@@ -1,0 +1,50 @@
+1º Na pasta do projeto criar o arquivo txt com o nome .gitignore
+
+2º Abrir o GitBash previamente instalado e dar o comando git init
+
+3º identificação do repositório:
+	Comandos
+
+git config --global user.name "usuário"
+git config --global user.email "email"
+
+Salvando as versões.
+
+Enviando para area de stage:
+
+git add *
+
+Realizando o commit da atualização do repositório:
+
+git commit -m "mensagem com descrição da atualização"
+
+Para verificar o status:
+
+git status
+
+Para verificar os logs:
+
+Git log
+
+Associando repositório Local com o remoto:
+
+git remote add origin https://...
+
+Para alterar o projeto de repositório remoto:
+
+git remote set-url origin https://...
+
+OBS: Onde
+
+add->  associa os repositórios
+set-url-> muda de repositório remoto
+
+Enviar o repositório local para o GitHub
+
+git push -u origin master
+nas proximas é somente inserir git push
+
+Copiando repositório remoto para o local:
+Consulte se o repositório remoto foi ou está atualizado.
+
+git pull origin master
